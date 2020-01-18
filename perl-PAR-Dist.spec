@@ -1,6 +1,6 @@
 Name:           perl-PAR-Dist
 Version:        0.49
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Toolkit for creating and manipulating Perl PAR distributions
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -68,6 +68,9 @@ make test PERL_TEST_POD=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.49-2
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Petr Pisar <ppisar@redhat.com> - 0.49-1
 - 0.49 bump
 
